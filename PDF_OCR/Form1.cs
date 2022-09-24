@@ -9,7 +9,9 @@ namespace PDF_OCR
 
         private void pbEinstellungen_Click(object sender, EventArgs e)
         {
-
+            lbAktuellePDF.Text = Properties.Settings.Default["DPI"].ToString();
+            //Properties.Settings.Default["SomeProperty"] = "Some Value";
+            //Properties.Settings.Default.Save();
         }
 
         private void pbKonvertieren_Click(object sender, EventArgs e)
