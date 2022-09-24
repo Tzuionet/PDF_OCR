@@ -6,5 +6,15 @@ namespace PDF_OCR
         {
             InitializeComponent();
         }
+
+        private void pbEinstellungen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbKonvertieren_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
