@@ -45,10 +45,13 @@ namespace PDF_OCR
             // 
             // progressBar
             // 
+            this.progressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(111)))), ((int)(((byte)(180)))));
             this.progressBar.Location = new System.Drawing.Point(12, 229);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(460, 20);
+            this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar.TabIndex = 1;
+            this.progressBar.Value = 30;
             // 
             // pbEinstellungen
             // 
@@ -84,7 +87,7 @@ namespace PDF_OCR
             this.lbAktuellePDF.Name = "lbAktuellePDF";
             this.lbAktuellePDF.Size = new System.Drawing.Size(460, 22);
             this.lbAktuellePDF.TabIndex = 4;
-            this.lbAktuellePDF.Text = "Aktuelle_Datei.pdf";
+            this.lbAktuellePDF.Text = "Aktuelle_Datei.pdf ...";
             this.lbAktuellePDF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
