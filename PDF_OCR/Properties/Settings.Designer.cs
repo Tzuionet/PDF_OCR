@@ -23,48 +23,63 @@ namespace PDF_OCR.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("C:\\Temp\\pdf24.exe")]
         public string PDF24EXE {
             get {
                 return ((string)(this["PDF24EXE"]));
             }
+            set {
+                this["PDF24EXE"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("C:\\Temp\\PDF\\")]
         public string Quellordner {
             get {
                 return ((string)(this["Quellordner"]));
             }
+            set {
+                this["Quellordner"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("C:\\Temp\\OCR\\")]
         public string Zielordner {
             get {
                 return ((string)(this["Zielordner"]));
             }
+            set {
+                this["Zielordner"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("German")]
         public string Sprache {
             get {
                 return ((string)(this["Sprache"]));
             }
+            set {
+                this["Sprache"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("300")]
         public int DPI {
             get {
                 return ((int)(this["DPI"]));
+            }
+            set {
+                this["DPI"] = value;
             }
         }
     }

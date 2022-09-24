@@ -2,19 +2,19 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PDF_OCR.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="PDF24EXE" Type="System.String" Scope="Application">
+    <Setting Name="PDF24EXE" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\Temp\pdf24.exe</Value>
     </Setting>
-    <Setting Name="Quellordner" Type="System.String" Scope="Application">
+    <Setting Name="Quellordner" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\Temp\PDF\</Value>
     </Setting>
-    <Setting Name="Zielordner" Type="System.String" Scope="Application">
+    <Setting Name="Zielordner" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\Temp\OCR\</Value>
     </Setting>
-    <Setting Name="Sprache" Type="System.String" Scope="Application">
+    <Setting Name="Sprache" Type="System.String" Scope="User">
       <Value Profile="(Default)">German</Value>
     </Setting>
-    <Setting Name="DPI" Type="System.Int32" Scope="Application">
+    <Setting Name="DPI" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">300</Value>
     </Setting>
   </Settings>

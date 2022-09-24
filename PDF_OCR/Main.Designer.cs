@@ -51,7 +51,6 @@ namespace PDF_OCR
             this.progressBar.Size = new System.Drawing.Size(460, 20);
             this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar.TabIndex = 1;
-            this.progressBar.Value = 30;
             // 
             // pbEinstellungen
             // 
@@ -90,7 +89,7 @@ namespace PDF_OCR
             this.lbAktuellePDF.Text = "Aktuelle_Datei.pdf ...";
             this.lbAktuellePDF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -103,7 +102,7 @@ namespace PDF_OCR
             this.Font = new System.Drawing.Font("Noto Sans", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "PDF 2 OCR";
             ((System.ComponentModel.ISupportInitialize)(this.pbEinstellungen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbKonvertieren)).EndInit();
