@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace PDF_OCR
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -34,7 +34,7 @@ namespace PDF_OCR
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.pbEinstellungen = new System.Windows.Forms.PictureBox();
             this.pbKonvertieren = new System.Windows.Forms.PictureBox();
