@@ -69,9 +69,9 @@ namespace PDF_OCR
             this.pbKonvertieren.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pbKonvertieren.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbKonvertieren.Image = ((System.Drawing.Image)(resources.GetObject("pbKonvertieren.Image")));
-            this.pbKonvertieren.Location = new System.Drawing.Point(12, 41);
+            this.pbKonvertieren.Location = new System.Drawing.Point(170, 43);
             this.pbKonvertieren.Name = "pbKonvertieren";
-            this.pbKonvertieren.Size = new System.Drawing.Size(460, 130);
+            this.pbKonvertieren.Size = new System.Drawing.Size(130, 130);
             this.pbKonvertieren.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbKonvertieren.TabIndex = 3;
             this.pbKonvertieren.TabStop = false;
@@ -81,7 +81,7 @@ namespace PDF_OCR
             // 
             this.lbAktuellePDF.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbAktuellePDF.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbAktuellePDF.ForeColor = System.Drawing.Color.White;
+            this.lbAktuellePDF.ForeColor = System.Drawing.Color.Black;
             this.lbAktuellePDF.Location = new System.Drawing.Point(12, 196);
             this.lbAktuellePDF.Name = "lbAktuellePDF";
             this.lbAktuellePDF.Size = new System.Drawing.Size(460, 22);
@@ -93,7 +93,7 @@ namespace PDF_OCR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(80)))), ((int)(((byte)(87)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.ClientSize = new System.Drawing.Size(484, 261);
             this.Controls.Add(this.lbAktuellePDF);
             this.Controls.Add(this.pbKonvertieren);

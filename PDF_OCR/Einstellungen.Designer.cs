@@ -1,4 +1,6 @@
-﻿namespace PDF_OCR
+﻿using PDF_OCR.Properties;
+
+namespace PDF_OCR
 {
     partial class Einstellungen
     {
@@ -47,7 +49,7 @@
             // 
             this.lbExe.AutoSize = true;
             this.lbExe.Font = new System.Drawing.Font("Noto Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbExe.ForeColor = System.Drawing.Color.White;
+            this.lbExe.ForeColor = System.Drawing.Color.Black;
             this.lbExe.Location = new System.Drawing.Point(12, 9);
             this.lbExe.Name = "lbExe";
             this.lbExe.Size = new System.Drawing.Size(75, 26);
@@ -58,7 +60,7 @@
             // 
             this.lbQuelle.AutoSize = true;
             this.lbQuelle.Font = new System.Drawing.Font("Noto Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbQuelle.ForeColor = System.Drawing.Color.White;
+            this.lbQuelle.ForeColor = System.Drawing.Color.Black;
             this.lbQuelle.Location = new System.Drawing.Point(12, 45);
             this.lbQuelle.Name = "lbQuelle";
             this.lbQuelle.Size = new System.Drawing.Size(128, 26);
@@ -69,7 +71,7 @@
             // 
             this.lbZiel.AutoSize = true;
             this.lbZiel.Font = new System.Drawing.Font("Noto Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbZiel.ForeColor = System.Drawing.Color.White;
+            this.lbZiel.ForeColor = System.Drawing.Color.Black;
             this.lbZiel.Location = new System.Drawing.Point(12, 81);
             this.lbZiel.Name = "lbZiel";
             this.lbZiel.Size = new System.Drawing.Size(112, 26);
@@ -80,7 +82,7 @@
             // 
             this.lbSprache.AutoSize = true;
             this.lbSprache.Font = new System.Drawing.Font("Noto Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSprache.ForeColor = System.Drawing.Color.White;
+            this.lbSprache.ForeColor = System.Drawing.Color.Black;
             this.lbSprache.Location = new System.Drawing.Point(12, 116);
             this.lbSprache.Name = "lbSprache";
             this.lbSprache.Size = new System.Drawing.Size(90, 26);
@@ -91,7 +93,7 @@
             // 
             this.lbDPI.AutoSize = true;
             this.lbDPI.Font = new System.Drawing.Font("Noto Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbDPI.ForeColor = System.Drawing.Color.White;
+            this.lbDPI.ForeColor = System.Drawing.Color.Black;
             this.lbDPI.Location = new System.Drawing.Point(12, 152);
             this.lbDPI.Name = "lbDPI";
             this.lbDPI.Size = new System.Drawing.Size(49, 26);
@@ -100,10 +102,10 @@
             // 
             // tbPDF24
             // 
-            this.tbPDF24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(60)))), ((int)(((byte)(65)))));
+            this.tbPDF24.BackColor = System.Drawing.Color.White;
             this.tbPDF24.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbPDF24.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbPDF24.ForeColor = System.Drawing.Color.White;
+            this.tbPDF24.ForeColor = System.Drawing.Color.Black;
             this.tbPDF24.Location = new System.Drawing.Point(150, 11);
             this.tbPDF24.Name = "tbPDF24";
             this.tbPDF24.Size = new System.Drawing.Size(329, 22);
@@ -111,10 +113,10 @@
             // 
             // tbQuelle
             // 
-            this.tbQuelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(60)))), ((int)(((byte)(65)))));
+            this.tbQuelle.BackColor = System.Drawing.Color.White;
             this.tbQuelle.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbQuelle.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbQuelle.ForeColor = System.Drawing.Color.White;
+            this.tbQuelle.ForeColor = System.Drawing.Color.Black;
             this.tbQuelle.Location = new System.Drawing.Point(150, 48);
             this.tbQuelle.Name = "tbQuelle";
             this.tbQuelle.Size = new System.Drawing.Size(329, 22);
@@ -122,10 +124,10 @@
             // 
             // tbZiel
             // 
-            this.tbZiel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(60)))), ((int)(((byte)(65)))));
+            this.tbZiel.BackColor = System.Drawing.Color.White;
             this.tbZiel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbZiel.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbZiel.ForeColor = System.Drawing.Color.White;
+            this.tbZiel.ForeColor = System.Drawing.Color.Black;
             this.tbZiel.Location = new System.Drawing.Point(150, 84);
             this.tbZiel.Name = "tbZiel";
             this.tbZiel.Size = new System.Drawing.Size(329, 22);
@@ -133,10 +135,10 @@
             // 
             // tbSprache
             // 
-            this.tbSprache.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(60)))), ((int)(((byte)(65)))));
+            this.tbSprache.BackColor = System.Drawing.Color.White;
             this.tbSprache.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbSprache.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbSprache.ForeColor = System.Drawing.Color.White;
+            this.tbSprache.ForeColor = System.Drawing.Color.Black;
             this.tbSprache.Location = new System.Drawing.Point(150, 119);
             this.tbSprache.Name = "tbSprache";
             this.tbSprache.Size = new System.Drawing.Size(329, 22);
@@ -144,10 +146,10 @@
             // 
             // tbDPI
             // 
-            this.tbDPI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(60)))), ((int)(((byte)(65)))));
+            this.tbDPI.BackColor = System.Drawing.Color.White;
             this.tbDPI.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbDPI.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbDPI.ForeColor = System.Drawing.Color.White;
+            this.tbDPI.ForeColor = System.Drawing.Color.Black;
             this.tbDPI.Location = new System.Drawing.Point(150, 155);
             this.tbDPI.Name = "tbDPI";
             this.tbDPI.Size = new System.Drawing.Size(329, 22);
@@ -156,9 +158,9 @@
             // pbSpeichern
             // 
             this.pbSpeichern.Image = ((System.Drawing.Image)(resources.GetObject("pbSpeichern.Image")));
-            this.pbSpeichern.Location = new System.Drawing.Point(-1, 199);
+            this.pbSpeichern.Location = new System.Drawing.Point(219, 197);
             this.pbSpeichern.Name = "pbSpeichern";
-            this.pbSpeichern.Size = new System.Drawing.Size(486, 50);
+            this.pbSpeichern.Size = new System.Drawing.Size(50, 50);
             this.pbSpeichern.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbSpeichern.TabIndex = 10;
             this.pbSpeichern.TabStop = false;
@@ -168,7 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(80)))), ((int)(((byte)(87)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.ClientSize = new System.Drawing.Size(484, 261);
             this.Controls.Add(this.pbSpeichern);
             this.Controls.Add(this.tbDPI);
