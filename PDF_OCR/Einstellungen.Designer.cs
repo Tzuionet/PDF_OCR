@@ -34,14 +34,11 @@ namespace PDF_OCR
             this.lbExe = new System.Windows.Forms.Label();
             this.lbQuelle = new System.Windows.Forms.Label();
             this.lbZiel = new System.Windows.Forms.Label();
-            this.lbSprache = new System.Windows.Forms.Label();
-            this.lbDPI = new System.Windows.Forms.Label();
             this.tbPDF24 = new System.Windows.Forms.TextBox();
             this.tbQuelle = new System.Windows.Forms.TextBox();
             this.tbZiel = new System.Windows.Forms.TextBox();
-            this.tbSprache = new System.Windows.Forms.TextBox();
-            this.tbDPI = new System.Windows.Forms.TextBox();
             this.pbSpeichern = new System.Windows.Forms.PictureBox();
+            this.lbVersion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbSpeichern)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,28 +75,6 @@ namespace PDF_OCR
             this.lbZiel.TabIndex = 2;
             this.lbZiel.Text = "Zielordner:";
             // 
-            // lbSprache
-            // 
-            this.lbSprache.AutoSize = true;
-            this.lbSprache.Font = new System.Drawing.Font("Noto Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbSprache.ForeColor = System.Drawing.Color.Black;
-            this.lbSprache.Location = new System.Drawing.Point(12, 116);
-            this.lbSprache.Name = "lbSprache";
-            this.lbSprache.Size = new System.Drawing.Size(90, 26);
-            this.lbSprache.TabIndex = 3;
-            this.lbSprache.Text = "Sprache:";
-            // 
-            // lbDPI
-            // 
-            this.lbDPI.AutoSize = true;
-            this.lbDPI.Font = new System.Drawing.Font("Noto Sans", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbDPI.ForeColor = System.Drawing.Color.Black;
-            this.lbDPI.Location = new System.Drawing.Point(12, 152);
-            this.lbDPI.Name = "lbDPI";
-            this.lbDPI.Size = new System.Drawing.Size(49, 26);
-            this.lbDPI.TabIndex = 4;
-            this.lbDPI.Text = "DPI:";
-            // 
             // tbPDF24
             // 
             this.tbPDF24.BackColor = System.Drawing.Color.White;
@@ -133,28 +108,6 @@ namespace PDF_OCR
             this.tbZiel.Size = new System.Drawing.Size(329, 22);
             this.tbZiel.TabIndex = 7;
             // 
-            // tbSprache
-            // 
-            this.tbSprache.BackColor = System.Drawing.Color.White;
-            this.tbSprache.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbSprache.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbSprache.ForeColor = System.Drawing.Color.Black;
-            this.tbSprache.Location = new System.Drawing.Point(150, 119);
-            this.tbSprache.Name = "tbSprache";
-            this.tbSprache.Size = new System.Drawing.Size(329, 22);
-            this.tbSprache.TabIndex = 8;
-            // 
-            // tbDPI
-            // 
-            this.tbDPI.BackColor = System.Drawing.Color.White;
-            this.tbDPI.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbDPI.Font = new System.Drawing.Font("Noto Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.tbDPI.ForeColor = System.Drawing.Color.Black;
-            this.tbDPI.Location = new System.Drawing.Point(150, 155);
-            this.tbDPI.Name = "tbDPI";
-            this.tbDPI.Size = new System.Drawing.Size(329, 22);
-            this.tbDPI.TabIndex = 9;
-            // 
             // pbSpeichern
             // 
             this.pbSpeichern.Image = ((System.Drawing.Image)(resources.GetObject("pbSpeichern.Image")));
@@ -166,20 +119,26 @@ namespace PDF_OCR
             this.pbSpeichern.TabStop = false;
             this.pbSpeichern.Click += new System.EventHandler(this.pbSpeichern_Click);
             // 
+            // lbVersion
+            // 
+            this.lbVersion.AutoSize = true;
+            this.lbVersion.Location = new System.Drawing.Point(396, 233);
+            this.lbVersion.Name = "lbVersion";
+            this.lbVersion.Size = new System.Drawing.Size(83, 19);
+            this.lbVersion.TabIndex = 11;
+            this.lbVersion.Text = "Version 1.0";
+            // 
             // Einstellungen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.ClientSize = new System.Drawing.Size(484, 261);
+            this.Controls.Add(this.lbVersion);
             this.Controls.Add(this.pbSpeichern);
-            this.Controls.Add(this.tbDPI);
-            this.Controls.Add(this.tbSprache);
             this.Controls.Add(this.tbZiel);
             this.Controls.Add(this.tbQuelle);
             this.Controls.Add(this.tbPDF24);
-            this.Controls.Add(this.lbDPI);
-            this.Controls.Add(this.lbSprache);
             this.Controls.Add(this.lbZiel);
             this.Controls.Add(this.lbQuelle);
             this.Controls.Add(this.lbExe);
@@ -201,20 +160,15 @@ namespace PDF_OCR
             this.tbPDF24.Text = Properties.Settings.Default["PDF24EXE"].ToString();
             this.tbQuelle.Text = Properties.Settings.Default["Quellordner"].ToString();
             this.tbZiel.Text = Properties.Settings.Default["Zielordner"].ToString();
-            this.tbSprache.Text = Properties.Settings.Default["Sprache"].ToString();
-            this.tbDPI.Text = Properties.Settings.Default["DPI"].ToString();
         }
 
         private Label lbExe;
         private Label lbQuelle;
         private Label lbZiel;
-        private Label lbSprache;
-        private Label lbDPI;
         private TextBox tbPDF24;
         private TextBox tbQuelle;
         private TextBox tbZiel;
-        private TextBox tbSprache;
-        private TextBox tbDPI;
         private PictureBox pbSpeichern;
+        private Label lbVersion;
     }
 }

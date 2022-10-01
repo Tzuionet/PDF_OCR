@@ -23,8 +23,6 @@ namespace PDF_OCR
             Properties.Settings.Default["PDF24EXE"] = tbPDF24.Text;
             Properties.Settings.Default["Quellordner"] = tbQuelle.Text;
             Properties.Settings.Default["Zielordner"] = tbZiel.Text;
-            Properties.Settings.Default["Sprache"] = tbSprache.Text;
-            Properties.Settings.Default["DPI"] = Convert.ToInt32(tbDPI.Text);
             Properties.Settings.Default.Save();
             this.Close();
         }

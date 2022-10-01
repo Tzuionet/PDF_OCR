@@ -25,7 +25,7 @@ namespace PDF_OCR.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Temp\\pdf24.exe")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Program Files\\PDF24\\pdf24-Ocr.exe")]
         public string PDF24EXE {
             get {
                 return ((string)(this["PDF24EXE"]));
@@ -56,30 +56,6 @@ namespace PDF_OCR.Properties {
             }
             set {
                 this["Zielordner"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("German")]
-        public string Sprache {
-            get {
-                return ((string)(this["Sprache"]));
-            }
-            set {
-                this["Sprache"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("300")]
-        public int DPI {
-            get {
-                return ((int)(this["DPI"]));
-            }
-            set {
-                this["DPI"] = value;
             }
         }
     }

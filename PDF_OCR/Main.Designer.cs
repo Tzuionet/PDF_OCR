@@ -86,7 +86,6 @@ namespace PDF_OCR
             this.lbAktuellePDF.Name = "lbAktuellePDF";
             this.lbAktuellePDF.Size = new System.Drawing.Size(460, 22);
             this.lbAktuellePDF.TabIndex = 4;
-            this.lbAktuellePDF.Text = "Aktuelle_Datei.pdf ...";
             this.lbAktuellePDF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Main
