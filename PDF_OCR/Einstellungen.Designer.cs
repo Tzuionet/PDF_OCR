@@ -144,6 +144,7 @@ namespace PDF_OCR
             this.Controls.Add(this.lbExe);
             this.Font = new System.Drawing.Font("Noto Sans", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Einstellungen";
             this.Text = "PDF2OCR - Einstellungen";
